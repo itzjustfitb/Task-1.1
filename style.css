@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  background-color: #ffff00;
+}
+body .container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+body .container button {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid black;
+  transition: 0.4s;
+  font-size: 12px;
+}
+body .container button:first-child {
+  background-color: #808080;
+}
+body .container button:nth-child(2) {
+  background-color: #fe0000;
+}
+body .container button:nth-child(3) {
+  background-color: #0000fe;
+}
+body .container button:last-child {
+  background-color: #ffff00;
+}
+body .container p {
+  text-align: center;
+  font-weight: 700;
+  width: 300px;
+}
